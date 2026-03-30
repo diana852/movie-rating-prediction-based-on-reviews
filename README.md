@@ -1,6 +1,6 @@
 # Review -> Rating Prediction (TF-IDF + Logistic Regression)
 
-## Kurulum
+## Installation
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
