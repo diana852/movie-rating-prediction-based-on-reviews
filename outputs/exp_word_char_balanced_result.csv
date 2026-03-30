@@ -1,0 +1,2 @@
+experiment,accuracy,macro_f1
+E5_word_char_tfidf_balanced,0.44666666666666666,0.43574577864697017

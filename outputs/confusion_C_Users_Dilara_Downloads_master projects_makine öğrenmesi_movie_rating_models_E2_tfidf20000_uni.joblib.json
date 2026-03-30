@@ -1,0 +1,144 @@
+{
+  "model_path": "C:\\Users\\Dilara\\Downloads\\master projects\\makine öğrenmesi\\movie_rating\\models\\E2_tfidf20000_uni.joblib",
+  "labels": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "confusion_matrix": [
+    [
+      44,
+      5,
+      7,
+      2,
+      2
+    ],
+    [
+      20,
+      9,
+      10,
+      10,
+      7
+    ],
+    [
+      8,
+      9,
+      18,
+      15,
+      8
+    ],
+    [
+      2,
+      2,
+      13,
+      28,
+      19
+    ],
+    [
+      4,
+      2,
+      4,
+      18,
+      34
+    ]
+  ],
+  "classification_report": {
+    "1": {
+      "precision": 0.5641025641025641,
+      "recall": 0.7333333333333333,
+      "f1-score": 0.6376811594202898,
+      "support": 60.0
+    },
+    "2": {
+      "precision": 0.3333333333333333,
+      "recall": 0.16071428571428573,
+      "f1-score": 0.21686746987951808,
+      "support": 56.0
+    },
+    "3": {
+      "precision": 0.34615384615384615,
+      "recall": 0.3103448275862069,
+      "f1-score": 0.32727272727272727,
+      "support": 58.0
+    },
+    "4": {
+      "precision": 0.3835616438356164,
+      "recall": 0.4375,
+      "f1-score": 0.40875912408759124,
+      "support": 64.0
+    },
+    "5": {
+      "precision": 0.4857142857142857,
+      "recall": 0.5483870967741935,
+      "f1-score": 0.5151515151515151,
+      "support": 62.0
+    },
+    "accuracy": 0.44333333333333336,
+    "macro avg": {
+      "precision": 0.4225731346279291,
+      "recall": 0.4380559086816039,
+      "f1-score": 0.4211463991623283,
+      "support": 300.0
+    },
+    "weighted avg": {
+      "precision": 0.4241732483650292,
+      "recall": 0.44333333333333336,
+      "f1-score": 0.4249574798042945,
+      "support": 300.0
+    }
+  },
+  "top_confusions": [
+    {
+      "count": 20,
+      "true": 2,
+      "pred": 1
+    },
+    {
+      "count": 19,
+      "true": 4,
+      "pred": 5
+    },
+    {
+      "count": 18,
+      "true": 5,
+      "pred": 4
+    },
+    {
+      "count": 15,
+      "true": 3,
+      "pred": 4
+    },
+    {
+      "count": 13,
+      "true": 4,
+      "pred": 3
+    },
+    {
+      "count": 10,
+      "true": 2,
+      "pred": 3
+    },
+    {
+      "count": 10,
+      "true": 2,
+      "pred": 4
+    },
+    {
+      "count": 9,
+      "true": 3,
+      "pred": 2
+    },
+    {
+      "count": 8,
+      "true": 3,
+      "pred": 1
+    },
+    {
+      "count": 8,
+      "true": 3,
+      "pred": 5
+    }
+  ]
+}

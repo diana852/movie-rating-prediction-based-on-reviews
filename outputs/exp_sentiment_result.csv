@@ -1,0 +1,2 @@
+experiment,accuracy,macro_f1
+E3_tfidf_unigram_20k_plus_sentiment,0.4666666666666667,0.4320435643892614

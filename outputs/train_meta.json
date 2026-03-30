@@ -1,0 +1,30 @@
+{
+  "config": {
+    "project_root": "C:\\Users\\Dilara\\Downloads\\master projects\\makine öğrenmesi\\movie_rating",
+    "data_path": "C:\\Users\\Dilara\\Downloads\\master projects\\makine öğrenmesi\\movie_rating\\data\\raw\\Movie Review And Rating.csv",
+    "model_dir": "C:\\Users\\Dilara\\Downloads\\master projects\\makine öğrenmesi\\movie_rating\\models",
+    "outputs_dir": "C:\\Users\\Dilara\\Downloads\\master projects\\makine öğrenmesi\\movie_rating\\outputs",
+    "text_col": "Review",
+    "label_col": "Rating",
+    "test_size": 0.3,
+    "random_state": 42,
+    "max_features": 5000,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_iter": 2000
+  },
+  "n_total": 1000,
+  "n_train": 700,
+  "n_test": 300,
+  "label_counts": {
+    "1": 201,
+    "2": 185,
+    "3": 193,
+    "4": 214,
+    "5": 207
+  },
+  "model_path": "C:\\Users\\Dilara\\Downloads\\master projects\\makine öğrenmesi\\movie_rating\\models\\tfidf_logreg.joblib"
+}
