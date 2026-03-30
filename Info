@@ -1,0 +1,8 @@
+This application trains multiple models using movie reviews and rating data. After the training process is completed, each model can be tested individually, and their performance is evaluated using standard evaluation metrics.
+
+The models used in this project include:
+
+TF-IDF + Logistic Regression
+TF-IDF-based Sentiment Analysis
+Word-based and Character-based TF-IDF models
+DistilBERT
